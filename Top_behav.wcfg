@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="43" />
+   <wvobject db_ref_id="1" fp_name="/Top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/ins_wire" type="array">
+      <obj_property name="ElementShortName">ins_wire[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ins_wire[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_rs" type="array">
+      <obj_property name="ElementShortName">de_rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">de_rs[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_rt" type="array">
+      <obj_property name="ElementShortName">de_rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">de_rt[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_rd" type="array">
+      <obj_property name="ElementShortName">de_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">de_rd[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/ex_reg_wb" type="array">
+      <obj_property name="ElementShortName">ex_reg_wb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_reg_wb[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/me_reg_wb" type="array">
+      <obj_property name="ElementShortName">me_reg_wb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">me_reg_wb[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/wb_reg_wb" type="array">
+      <obj_property name="ElementShortName">wb_reg_wb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_reg_wb[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_imme" type="array">
+      <obj_property name="ElementShortName">de_imme[31:0]</obj_property>
+      <obj_property name="ObjectShortName">de_imme[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_branch_addr" type="array">
+      <obj_property name="ElementShortName">de_branch_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">de_branch_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/ex_vala" type="array">
+      <obj_property name="ElementShortName">ex_vala[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_vala[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/ex_valb" type="array">
+      <obj_property name="ElementShortName">ex_valb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_valb[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/ex_branch_addr" type="array">
+      <obj_property name="ElementShortName">ex_branch_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_branch_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/me_vale" type="array">
+      <obj_property name="ElementShortName">me_vale[31:0]</obj_property>
+      <obj_property name="ObjectShortName">me_vale[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/me_rt_val" type="array">
+      <obj_property name="ElementShortName">me_rt_val[31:0]</obj_property>
+      <obj_property name="ObjectShortName">me_rt_val[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/wb_val_alu" type="array">
+      <obj_property name="ElementShortName">wb_val_alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_val_alu[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/wb_val_mem" type="array">
+      <obj_property name="ElementShortName">wb_val_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_val_mem[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/alu_branch_wire" type="logic">
+      <obj_property name="ElementShortName">alu_branch_wire</obj_property>
+      <obj_property name="ObjectShortName">alu_branch_wire</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/Fw_a_wire" type="array">
+      <obj_property name="ElementShortName">Fw_a_wire[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Fw_a_wire[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/Fw_b_wire" type="array">
+      <obj_property name="ElementShortName">Fw_b_wire[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Fw_b_wire[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_MemRd" type="logic">
+      <obj_property name="ElementShortName">de_MemRd</obj_property>
+      <obj_property name="ObjectShortName">de_MemRd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_MemWr" type="logic">
+      <obj_property name="ElementShortName">de_MemWr</obj_property>
+      <obj_property name="ObjectShortName">de_MemWr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_RegWr" type="logic">
+      <obj_property name="ElementShortName">de_RegWr</obj_property>
+      <obj_property name="ObjectShortName">de_RegWr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_MemtoReg" type="logic">
+      <obj_property name="ElementShortName">de_MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">de_MemtoReg</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_Branch" type="logic">
+      <obj_property name="ElementShortName">de_Branch</obj_property>
+      <obj_property name="ObjectShortName">de_Branch</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/de_ImmeEn" type="logic">
+      <obj_property name="ElementShortName">de_ImmeEn</obj_property>
+      <obj_property name="ObjectShortName">de_ImmeEn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/ex_MemRd" type="logic">
+      <obj_property name="ElementShortName">ex_MemRd</obj_property>
+      <obj_property name="ObjectShortName">ex_MemRd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/ex_MemWr" type="logic">
+      <obj_property name="ElementShortName">ex_MemWr</obj_property>
+      <obj_property name="ObjectShortName">ex_MemWr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/ex_RegWr" type="logic">
+      <obj_property name="ElementShortName">ex_RegWr</obj_property>
+      <obj_property name="ObjectShortName">ex_RegWr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/ex_MemtoReg" type="logic">
+      <obj_property name="ElementShortName">ex_MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">ex_MemtoReg</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/ex_Branch" type="logic">
+      <obj_property name="ElementShortName">ex_Branch</obj_property>
+      <obj_property name="ObjectShortName">ex_Branch</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/me_MemRd" type="logic">
+      <obj_property name="ElementShortName">me_MemRd</obj_property>
+      <obj_property name="ObjectShortName">me_MemRd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/me_MemWr" type="logic">
+      <obj_property name="ElementShortName">me_MemWr</obj_property>
+      <obj_property name="ObjectShortName">me_MemWr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/me_RegWr" type="logic">
+      <obj_property name="ElementShortName">me_RegWr</obj_property>
+      <obj_property name="ObjectShortName">me_RegWr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/me_MemtoReg" type="logic">
+      <obj_property name="ElementShortName">me_MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">me_MemtoReg</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/wb_RegWr" type="logic">
+      <obj_property name="ElementShortName">wb_RegWr</obj_property>
+      <obj_property name="ObjectShortName">wb_RegWr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/wb_MemtoReg" type="logic">
+      <obj_property name="ElementShortName">wb_MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">wb_MemtoReg</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/halt" type="logic">
+      <obj_property name="ElementShortName">halt</obj_property>
+      <obj_property name="ObjectShortName">halt</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/mem_data_wire" type="array">
+      <obj_property name="ElementShortName">mem_data_wire[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_wire[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/alu_out_wire" type="array">
+      <obj_property name="ElementShortName">alu_out_wire[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out_wire[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/Top/cpu/Con_Jump_wire" type="logic">
+      <obj_property name="ElementShortName">Con_Jump_wire</obj_property>
+      <obj_property name="ObjectShortName">Con_Jump_wire</obj_property>
+   </wvobject>
+</wave_config>
