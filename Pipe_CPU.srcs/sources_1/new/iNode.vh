@@ -1,0 +1,53 @@
+`define HALT 6'h00
+`define SW 6'h01
+`define LW 6'h02
+`define CALL 6'h03
+`define RET 6'h04
+`define JMP 6'h05
+`define OPER 6'h10
+
+`define PLUSI 6'h20
+`define MINUSI 6'h21
+`define MULI 6'h22
+`define DIVI 6'h23
+`define ANDI 6'h24
+`define ORI 6'h25
+`define XORI 6'h26
+`define SLLI 6'h26
+`define SLRI 6'h28
+`define SRLI 6'h29
+`define SRRI 6'h2A
+`define PLUSUI 6'h2B
+`define MINUSUI 6'h2C
+`define MULUI 6'h2D
+`define DIVUI 6'h2E
+
+`define BEQ 6'h30
+`define BNE 6'h31
+`define BGE 6'h32
+`define BLE 6'h33
+`define BGT 6'h34
+`define BLT 6'h35
+
+`define OPER_PLUS 6'h00
+`define OPER_MINUS 6'h01
+`define OPER_MUL 6'h02
+`define OPER_DIV 6'h03
+`define OPER_AND 6'h04
+`define OPER_OR 6'h05
+`define OPER_XOR 6'h06
+`define OPER_SLL 6'h07
+`define OPER_SLR 6'h08
+`define OPER_SRL 6'h09
+`define OPER_SRR 6'h0a
+`define OPER_PLUSU 6'h0b
+`define OPER_MINUSU 6'h0c
+`define OPER_MULU 6'h0d
+`define OPER_DIVU 6'h0e
+
+`define OPER_AGTB 6'h10
+`define OPER_AGEB 6'h11
+`define OPER_ALEB 6'h12
+`define OPER_ALTB 6'h13
+`define OPER_AEQB 6'h14
+`define OPER_ANEQB 6'h15
